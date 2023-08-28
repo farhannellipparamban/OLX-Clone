@@ -3,9 +3,6 @@ import './Sell.css'
 import { FirebaseContext, AuthContext } from '../../Store/FirebaseContext'
 import { useNavigate } from 'react-router-dom'
 import OlxLogo from '../assets/Olx-logo'
-
-
-
 function Sell() {
       const navigate = useNavigate()
     const { firebase } = useContext(FirebaseContext)

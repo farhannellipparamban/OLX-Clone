@@ -347,7 +347,7 @@ select .unvisible {
 
 @media screen and (max-device-width: 1440px) {
   .search-bar input {
-    width: 20rem;
+    width: 28rem;
     height: 2.5rem;
     border-width: 2px;
     border: 2px solid #002f34;
@@ -411,7 +411,7 @@ select .unvisible {
 
 @media screen and (max-device-width: 1440px) {
   .search-product {
-    margin-left: 18rem;
+    margin-left: 25.71rem;
     height: 42px;
   }
 }
@@ -822,7 +822,7 @@ select .unvisible {
 
 @media screen and (max-device-width: 1440px) {
   .sell svg {
-    height: 36px;
+    height: 44px;
   }
 }
 @media screen and (max-device-width: 768px) {

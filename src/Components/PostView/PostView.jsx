@@ -3,7 +3,7 @@ import { FirebaseContext } from '../../Store/FirebaseContext'
 import { PostContext } from '../../Store/PostContext'
 import './PostView.css'
 function PostView() {
-  const [userDetails, setuserDetails] = useState()
+  const [userDetails, setuserDetails] = useState(null)
   const { postDetails } = useContext(PostContext)
   const { firebase } = useContext(FirebaseContext)
   useEffect(() => {
@@ -14,7 +14,7 @@ function PostView() {
         setuserDetails(doc.data())
       })
     })
-  }, [])
+  }, [firebase,postDetails])
   function giveAlert(){
     alert("Can't available now")
   }
@@ -23,7 +23,7 @@ function PostView() {
     <div className='post-view'>
       <div className="column-1">
         <div class="images">
-          <img src={postDetails.url} />
+          <img src={postDetails.url} alt='postImage'/>
         </div>
         <div class="mobile-price">
           <div class="top">
@@ -35,7 +35,7 @@ function PostView() {
           </div>
           <p>{postDetails.proName}</p>
           <div className="bottom">
-            <p>Maradu,Kochi</p>
+            <p>Maradu, Kochi</p>
             <p>Today</p>
           </div>
         </div>
@@ -80,5 +80,5 @@ function PostView() {
     </div>
   )
 }
-
+  
 export default PostView

@@ -57,3 +57,11 @@ Make sure you have Node.js installed on your machine. You can download it from [
 
    ```sh
    git clone https://github.com/your-username/olx-clone.git
+   cd olx-clone
+   npm install
+
+2. Configuration:
+   -Create a Firebase project at https://console.firebase.google.com/.
+   -Obtain your Firebase configuration (apiKey, authDomain, projectId, etc.).
+-  -Replace the placeholders in the project's configuration files with your Firebase configuration.
+

@@ -11,7 +11,6 @@ A simplified OLX clone web application with login, signup, product viewing, and 
   - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -59,15 +58,27 @@ Make sure you have Node.js installed on your machine. You can download it from [
    cd olx-clone
    npm install
 
-### Configuration:
+## Configuration
 
 1. **Firebase Setup**
    - Create a Firebase project at https://console.firebase.google.com/.
    - Obtain your Firebase configuration (apiKey, authDomain, projectId, etc.).
    - Replace the placeholders in the project's configuration files with your Firebase configuration.
      
-2. **Run the deployment server**
-   ```sh
-   npm start
+ ## Usage
+ 
+ 1. **Run the deployment server**
+    
+     ```sh
+     npm start
+
+ ## Contributing
+ - Contributions are welcome! If you find any issues or want to enhance the application, feel free to submit a pull request.
+
+## License
+- This project is licensed under the <a href="https://opensource.org/license/mit/">MIT License</a>.
+
+
+
 
 

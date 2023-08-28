@@ -61,7 +61,14 @@ Make sure you have Node.js installed on your machine. You can download it from [
    npm install
 
 ### Configuration:
+
+1. **Firebase Setup**
    - Create a Firebase project at https://console.firebase.google.com/.
    - Obtain your Firebase configuration (apiKey, authDomain, projectId, etc.).
    - Replace the placeholders in the project's configuration files with your Firebase configuration.
+     
+2. **Run the deployment server**
+   ```sh
+   npm start
+
 

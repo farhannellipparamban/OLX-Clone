@@ -36,7 +36,6 @@ A simplified OLX clone web application with login, signup, product viewing, and 
 
 - **Frontend:**
   - React: JavaScript library for building user interfaces.
-  - Redux (optional): State management library (if used in your project).
   - CSS: Styling the application.
 
 - **Backend:**

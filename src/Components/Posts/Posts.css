@@ -119,7 +119,7 @@ cursor: pointer;
 @media screen and (max-device-width: 2560px) {
     .product {
         margin: 12px 11px;
-        height: 16rem;
+        height: 18rem;
         border-style: solid;
         border-radius: 4px;
         width: 19rem;
@@ -132,7 +132,7 @@ cursor: pointer;
 @media screen and (max-device-width: 1440px) {
     .product {
         margin: 5px 2px;
-        height: 18rem;
+        height: 20rem;
         border-style: solid;
         border-radius: 4px;
         width: 18rem;
@@ -145,7 +145,7 @@ cursor: pointer;
 @media screen and (max-device-width: 768px) {
     .product {
         margin: 9px 18px;
-        height: 18rem;
+        height: 20rem;
         border-style: solid;
         border-radius: 4px;
         width: 18.1rem;
@@ -242,6 +242,7 @@ cursor: pointer;
 @media screen and (max-device-width: 1440px) {
     .bottom h4 {
         font-size: 23px;
+        margin-bottom: 10px;
     }
 }
 
@@ -266,6 +267,7 @@ cursor: pointer;
 @media screen and (max-device-width: 1440px) {
     .bottom p {
         font-size: 15px;
+        margin-bottom: 7px;
     }
 }
 
@@ -280,3 +282,9 @@ cursor: pointer;
     height: auto;
     width: 90%;
 }
+.favorite {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+    align-items: center;
+  }

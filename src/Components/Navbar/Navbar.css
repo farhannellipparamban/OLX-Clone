@@ -806,7 +806,7 @@ select .unvisible {
     display: flex;
     z-index: inherit;
     align-items: center;
-    margin-left: 8px;
+    margin-left: 15px;
     position: absolute;
   }
 }
@@ -871,4 +871,23 @@ select .unvisible {
   height: 241px;
   margin: 2rem;
   width: 10rem;
+}
+.language {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.language span {
+  /* justify-content: space-between;
+  align-items: center; */
+  font-size: 15px;
+  white-space: normal;
+  text-overflow: ellipsis;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.language svg {
 }

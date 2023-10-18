@@ -34,8 +34,12 @@ function PostView() {
             </div>
           </div>
           <p>{postDetails.proName}</p>
+          <br />
+          <p className='category'>Category : {postDetails.category}</p>
+          <p className='posted'>Posted : {postDetails.createdOn}</p>
+          <p className='year'>YearOfPurchase : {postDetails.yearOfPurchase}</p>
           <div className="bottom">
-            <p>Maradu, Kochi</p>
+          <p>Manjeri, Malppuram</p>
             <p>Today</p>
           </div>
         </div>
@@ -56,8 +60,12 @@ function PostView() {
             </div>
           </div>
           <p className='proname'>{postDetails.proName}</p>
+          <br />
+          <p className='category'>Category : {postDetails.category}</p>
+          <p className='posted'>Posted : {postDetails.createdOn}</p>
+          <p className='year'>YearOfPurchase : {postDetails.yearOfPurchase}</p>
           <div className="bottom">
-            <p>Maradu, Kochi</p>
+            <p>Manjeri, Malppuram</p>
             <p>Today</p>
           </div>
         </div>

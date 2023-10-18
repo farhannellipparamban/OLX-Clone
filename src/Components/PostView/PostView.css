@@ -189,7 +189,7 @@
     .mobile-price {
         position: relative;
         background: rgb(255 255 255);
-        height: 6rem;
+        height: 9rem;
         border: 1px solid;
         border-color: #ababab;
         border-radius: 1px;
@@ -237,7 +237,10 @@
         color: #707070;
     }
 }
-
+.mobile-price .category, .mobile-price .posted, .mobile-price .year {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
 .column-2 {
     width: 34%;
 }
@@ -274,7 +277,7 @@
     .box-1 {
         position: relative;
         background: rgb(255 255 255);
-        height: 10rem;
+        height: 13rem;
         border: 1px solid;
         border-color: #ababab;
         border-radius: 1px;
@@ -299,7 +302,7 @@
     .box-1 {
         position: relative;
         background: rgb(255 255 255);
-        height: 10rem;
+        height: 13rem;
         border: 1px solid;
         border-color: #ababab;
         border-radius: 1px;
@@ -466,6 +469,12 @@
         color: #000000;
         font-size: 14px;
     }
+}
+.box-1 .category, .box-1 .posted, .box-1 .year {
+    
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    margin-bottom: 5px;
 }
 
 @media screen and (max-device-width: 2560px) {
